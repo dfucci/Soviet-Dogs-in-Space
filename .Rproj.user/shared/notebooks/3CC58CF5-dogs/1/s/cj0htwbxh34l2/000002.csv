@@ -1,0 +1,12 @@
+"0","dogs <- read_csv(""data/Dogs-Database.csv"")"
+"2","Parsed with column specification:
+cols(
+  `Name (Latin)` = [31mcol_character()[39m,
+  `Name (English)` = [31mcol_character()[39m,
+  `Name (Cyrillic)` = [31mcol_character()[39m,
+  Gender = [31mcol_character()[39m,
+  Flights = [31mcol_character()[39m,
+  Fate = [31mcol_character()[39m,
+  Notes = [31mcol_character()[39m
+)
+"

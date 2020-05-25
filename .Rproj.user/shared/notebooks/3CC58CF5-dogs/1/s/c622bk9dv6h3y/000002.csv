@@ -1,0 +1,3 @@
+"0","flights_tidy <- flights %>% "
+"0","  clean_names() %>% "
+"0","  select(date_flight = date, rocket, altitude_km, result, notes_flight = notes) "

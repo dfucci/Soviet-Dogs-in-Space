@@ -1,0 +1,14 @@
+"0","flights_tidy <- flights %>% "
+"0","  clean_names() %>% "
+"0","  select(date_flight = date, rocket, altitude_km, result, notes_flight = notes) %>% "
+"0","  mutate(altitude = if_else(str_detect(altitude_km, ""^[0-9]""), parse_number(altitude_km), 2000))"
+"2","11 parsing failures.
+row col expected            actual
+ 10  -- a number unknown          
+ 23  -- a number orbital          
+ 28  -- a number unknown          
+ 34  -- a number was to be orbital
+ 35  -- a number orbital          
+... ... ........ .................
+See problems(...) for more details.
+"

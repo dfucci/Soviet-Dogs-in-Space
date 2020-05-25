@@ -1,0 +1,2 @@
+"0","data_tidy <- dogs %>% "
+"0","  clean_names()"

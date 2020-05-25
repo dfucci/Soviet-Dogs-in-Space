@@ -1,0 +1,27 @@
+{
+    "id": "9D5E6B4C",
+    "path": "~/Projects/dogs_in_space/dogs.Rmd",
+    "project_path": "dogs.Rmd",
+    "type": "r_markdown",
+    "hash": "3358029585",
+    "contents": "",
+    "dirty": false,
+    "created": 1590220972404.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "106,76",
+        "last_setup_crc32": "378B5232cb54c383",
+        "marks": "<:122,35\n>:122,35",
+        "scrollLine": "105",
+        "tempName": "Untitled1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1590436694,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1590436694126,
+    "read_only": false,
+    "read_only_alternatives": []
+}

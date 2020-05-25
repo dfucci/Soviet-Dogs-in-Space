@@ -1,0 +1,23 @@
+"0","dogs <- read_csv(""data/Dogs-Database.csv"")"
+"2","Parsed with column specification:
+cols(
+  `Name (Latin)` = [31mcol_character()[39m,
+  `Name (English)` = [31mcol_character()[39m,
+  `Name (Cyrillic)` = [31mcol_character()[39m,
+  Gender = [31mcol_character()[39m,
+  Flights = [31mcol_character()[39m,
+  Fate = [31mcol_character()[39m,
+  Notes = [31mcol_character()[39m
+)
+"
+"0","flights <- read_csv(""data/Flights-Database.csv"")"
+"2","Parsed with column specification:
+cols(
+  Date = [34mcol_date(format = """")[39m,
+  Dogs = [31mcol_character()[39m,
+  Rocket = [31mcol_character()[39m,
+  `Altitude (km)` = [31mcol_character()[39m,
+  Result = [31mcol_character()[39m,
+  Notes = [31mcol_character()[39m
+)
+"

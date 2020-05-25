@@ -1,0 +1,6 @@
+"0","flights_tidy <- flights %>% "
+"0","  clean_names() %>% "
+"0","  select(date_flight = date, rocket, altitude_km, result, notes_flight = notes) %>% "
+"0","  filter(altitude_km != ""unknown"") %>% "
+"0","  mutate(altitude = case_when(str_detect(altitude_km, ""^[0-9]"") ~ parse_number(altitude_km), "
+"0","                              str_detect(altitude_km, ""orbital"") ~ 2000))  # 2000 km is the terrestrial orbit altitude according to Wikipedia"

@@ -1,0 +1,6 @@
+"0","all_dogs_flights <- dogs_tidy %>% "
+"0","  inner_join(flights_tidy, by = ""date_flight"") %>% "
+"0","  mutate(flight_year = year(date_flight)) %>% "
+"0","  arrange(date_flight, name_latin) %>% "
+"0","  group_by(flight_year) %>% "
+"0","  mutate(year_pos = row_number())"

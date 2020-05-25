@@ -1,0 +1,3 @@
+"0","all_dogs_flights <- all_dogs_flights %>% "
+"0","  group_by(altitude) %>% "
+"0","  mutate(altitude_pos = group_indices()) "

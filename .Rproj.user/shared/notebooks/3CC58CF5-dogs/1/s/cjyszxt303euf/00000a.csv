@@ -1,0 +1,7 @@
+"0","all_dogs_flights <- dogs_tidy %>% "
+"0","  inner_join(flights_tidy, by = ""date_flight"") %>% "
+"0","  mutate(flight_year = year(date_flight)) %>% "
+"0","  arrange(date_flight) "
+"0","  "
+"0","all_dogs_flights <- all_dogs_flights %>% "
+"0","  mutate(rank = 1:nrow(all_dogs_flights)) # adds incremental rank based on year"

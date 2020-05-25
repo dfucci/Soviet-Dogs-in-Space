@@ -1,0 +1,7 @@
+"0","dogs_tidy <- dogs %>% "
+"0","  clean_names() %>% "
+"0","  separate_rows(flights, sep = "","") %>% "
+"0","  mutate(date_flight = ymd(flights),"
+"0","         date_death = case_when(str_sub(fate, 1, 4) == ""Died"" ~ str_sub(fate, 6, 15)),"
+"0","         date_death = ymd(date_death),"
+"0","         flight_fate = if_else(!is.na(date_death), ""Died"", ""Survived""))"

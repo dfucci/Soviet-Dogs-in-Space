@@ -1,0 +1,32 @@
+{
+    "id": "274F1DC8",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1590354997662.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "expression": "all_dogs_flights",
+        "caption": "all_dogs_flights",
+        "totalObservations": "75",
+        "displayedObservations": "75",
+        "variables": "15",
+        "cacheKey": "146F5C8B",
+        "object": "all_dogs_flights",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=all_dogs_flights&cache_key=146F5C8B&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 140482555868464,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1590354997662,
+    "read_only": false,
+    "read_only_alternatives": []
+}

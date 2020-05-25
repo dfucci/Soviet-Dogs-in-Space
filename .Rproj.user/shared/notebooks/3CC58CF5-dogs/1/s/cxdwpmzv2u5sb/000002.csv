@@ -1,0 +1,3 @@
+"0","dogs_tidy <- dogs %>% "
+"0","  clean_names() %>% "
+"0","  separate_rows(flights, sep = "","")"
