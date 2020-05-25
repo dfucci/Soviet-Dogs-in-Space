@@ -5,9 +5,9 @@ Davide Fucci
 
 The
 [data](https://airtable.com/universe/expG3z2CFykG1dZsp/sovet-space-dogs)
-is provided by Duncan Geere
-(\[@duncangeer\](www.twitter.com/duncangeer)). It is a database of dogs
-that flew on space missions based on the book *Soviet Space Dogs.*
+is provided by [Duncan Geere](www.twitter.com/duncangeer). It is a
+database of dogs that flew on space missions based on the book *Soviet
+Space Dogs.*
 
 Loading basic things. Beside tidyverse, lubridate helps to work with
 dates, janitor helps linting dataframes, whereas ggforce and ggtext put
